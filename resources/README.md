@@ -1,2 +1,8 @@
 This folder is meant to contain all resources necessary for running the workflow, for example reference sequences or databases.
 Wherever feasible, they can also be downloaded programmatically via rules defined in the pipeline.
+
+
+# Resources
+HCT116
+H2AK5ac  ENCFF045AED.bigWig https://www.encodeproject.org/files/ENCFF045AED/
+

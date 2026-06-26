@@ -1,3 +1,9 @@
+#!/bin/env -S Rscript --vanilla
+#SBATCH --cpus-per-task 4
+#SBATCH --mem-per-cpu 4G
+#SBATCH --exclude cc011        # unreliable node
+#SBATCH --mail-type END,FAIL   # get an email when this finishes or fails
+
 library(rtracklayer)
 library(ggplot2)
 library(ggplot2)
